@@ -43,7 +43,7 @@ const Navbar = () => {
           offset={-50}
           duration={500}
         >
-          Portfolio
+          Projects
         </Link>
         <Link
           className="cursor-pointer text-gray-700 relative hover:text-gray-900 after:content-[''] after:absolute after:-bottom-1.5 after:left-0 after:w-0 after:h-[2px] after:bg-gray-900 after:transition-all after:duration-300 hover:after:w-full"
@@ -112,7 +112,7 @@ const Navbar = () => {
             duration={500}
             onClick={() => setShowMenu(false)}
           >
-            Portfolio
+            Projects
           </Link>
           <Link
             className="cursor-pointer text-gray-700 hover:text-black"
